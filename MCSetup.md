@@ -1,5 +1,3 @@
----
-
 # Enterprise Salesforce Marketing Cloud Next Implementation Playbook
 
 ## Section 1: Architecture Overview
@@ -9,8 +7,8 @@ To maintain data silos while utilizing Data Cloud’s power, we use a **Hybrid I
 ### The "Unified" Concept
 
 * **CRM Layer (Siloed)**: Each office uses its own **Record Type** and **Sharing Rules**. This allows duplicate records for the same person to exist independently in the CRM, ensuring private data points remain separate.
-* **Data Cloud Layer (Unified)**: **Identity Resolution** matches these "duplicates" using attributes like Email or Phone to create a single **Unified Individual** .
-* **UI Layer (Aggregated)**: Admins use the **Unified Individual ID** to show total engagement scores on siloed record pages via the **Profile Insights** component .
+* **Data Cloud Layer (Unified)**: **Identity Resolution** matches these "duplicates" using attributes like Email or Phone to create a single **Unified Individual**.
+* **UI Layer (Aggregated)**: Admins use the **Unified Individual ID** to show total engagement scores on siloed record pages via the **Profile Insights** component.
 
 ---
 
