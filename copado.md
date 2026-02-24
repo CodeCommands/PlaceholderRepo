@@ -1,5 +1,3 @@
-I see the issue—the mobile view or specific Markdown editors can sometimes break the rendering of code blocks or lists if the spacing isn't exactly right. I have adjusted the formatting below to be as clean and "bulletproof" as possible for all viewers.
-Here is the complete, corrected memorandum in Markdown:
 TECHNICAL MEMORANDUM
 TO: Information System Security Officer (ISSO) / Network Engineering
 FROM: [Your Name/Role]
